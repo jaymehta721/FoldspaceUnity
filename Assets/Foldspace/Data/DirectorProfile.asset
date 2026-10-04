@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db046ac8b761244f9b48b8894d5dbed7, type: 3}
+  m_Name: DirectorProfile
+  m_EditorClassIdentifier: Foldspace.Runtime::Foldspace.Config.DirectorProfile
+  spawnEnemies: 1
+  maxEnemies: 45
+  telegraphTime: 0.9
+  packEnemy: {fileID: 11400000, guid: 19750677f2c334715a806faaf940e38b, type: 2}
+  firstPackDelay: 1.5
+  packIntervalStart: 6
+  packIntervalEnd: 3
+  rampDuration: 180
+  packSizeMin: 5
+  packSizeMax: 7
+  packGrowthPerMinute: 1
+  packSpread: 0.6
+  eliteEnemy: {fileID: 11400000, guid: 6e1dd866cf6b741f3a32a615b649dfdc, type: 2}
+  firstEliteTime: 25
+  eliteInterval: 20
+  maxElites: 4
+  escortEnemy: {fileID: 11400000, guid: 19750677f2c334715a806faaf940e38b, type: 2}
+  escortCount: 3
+  escortSpread: 0.9

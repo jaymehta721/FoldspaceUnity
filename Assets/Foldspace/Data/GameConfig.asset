@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d5ffb6cc29441a6ab9dde5e8bcf9d7, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Foldspace.Runtime::Foldspace.Config.GameConfig
+  arena:
+    radius: 4.4
+    screenFill: 0.94
+  ship:
+    speed: 3
+    turnRate: 220
+    radius: 0.2
+    hullPips: 3
+    hitInvulnerability: 1.2
+    spawnGrace: 1
+    spawnPosition: {x: 0, y: -1.5}
+  dash:
+    duration: 0.25
+    speedMultiplier: 2.2
+    cooldown: 4
+  weapon:
+    autoFire: 1
+    fireInterval: 0.28
+    bulletSpeed: 9
+    bulletLifetime: 0.9
+    autoAimCone: 30
+    autoAimRange: 5
+  wake:
+    duration: 2
+    sampleSpacing: 0.06
+    width: 0.14
+    contactDamage: 1
+    contactCooldown: 0.3
+  fold:
+    damage: 2
+    pointsPerKill: 25
+    minArea: 0.3
+    loopCloseDistance: 0.14
+    minLoopAge: 0.45
+    chainWindow: 1.5
+  progression:
+    magnetRadius: 1.5
+    collectRadius: 0.4
+    shardLifetime: 20
+    maxShardsPerFold: 12
+    xpFirstLevel: 10
+    xpPerLevel: 6
+  onboarding:
+    controlsTipDuration: 5
+    foldHintDelay: 20
+  director: {fileID: 11400000, guid: 5bb837687f2c8490d8e8b81688a9b28e, type: 2}
